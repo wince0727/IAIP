@@ -1,4 +1,4 @@
-# Sales Data Analysis Project
+# Customer Segmentation using K-Means
 
 ## Internship
 This project is completed as part of the **Intern Alpha Data Analytics Internship**.
@@ -6,30 +6,26 @@ This project is completed as part of the **Intern Alpha Data Analytics Internshi
 ---
 
 ## Objective
-The goal of this project is to analyze sales data to identify:
-- Sales trends over time
-- Top-performing products
-- Monthly sales performance
+The goal of this project is to segment customers into different groups based on their purchasing behavior using clustering techniques.
 
 ---
 
 ## Tools & Technologies Used
 - Python 🐍
-- Pandas (Data Analysis)
-- Matplotlib (Data Visualization)
+- Pandas (Data Processing)
+- Matplotlib (Visualization)
+- Scikit-learn (K-Means Clustering)
 
 ---
 
 ## Dataset
-- File: `sales_data.csv`
-- The dataset contains:
-  - Product_ID
-  - Sale_Date
-  - Sales_Amount
-  - Quantity_Sold
-  - Customer_Type
-  - Region
-  - Payment_Method
+- File: `Mall_Customers.csv`
+- The dataset includes:
+  - CustomerID
+  - Gender
+  - Age
+  - Annual Income (k$)
+  - Spending Score (1-100)
 
 ---
 
@@ -39,37 +35,39 @@ The goal of this project is to analyze sales data to identify:
 - Loaded dataset using Pandas
 
 ### 2. Data Cleaning
-- Removed missing values
-- Removed duplicate records
+- Checked for missing values
+- Ensured data consistency
 
-### 3. Data Analysis
-- Calculated total sales
-- Identified top 10 products by sales
-- Analyzed monthly sales trend
+### 3. Feature Selection
+- Selected:
+  - Annual Income
+  - Spending Score
 
-### 4. Data Visualization
-- Created bar chart for top products
-- Created line chart for monthly sales
+### 4. Clustering
+- Applied K-Means algorithm with 5 clusters
+- Assigned cluster labels to each customer
+
+### 5. Visualization
+- Created scatter plot to visualize customer segments
 
 ---
 
 ## Key Insights
-- Product **1099** has the highest sales.
-- The highest sales occurred in **Month 1 (January)**.
-- Sales show fluctuations across different months, indicating seasonal variation.
+- Customers are divided into 5 distinct segments.
+- High-income, high-spending customers form a premium group.
+- Some customers have high income but low spending.
+- Some customers have low income but high spending.
+- These segments help businesses target customers effectively.
 
 ---
 
-## Output Visualizations
+## Output Visualization
 
-### Top Products by Sales
-![Top Products](top_products.png)
-
-### Monthly Sales Trend
-![Monthly Sales](monthly_sales.png)
+### Customer Segmentation
+![Customer Segments](customer_segments.png)
 
 
 ---
 
 ## Conclusion
-This project demonstrates how data analysis can be used to extract meaningful insights from sales data and support business decision-making.
+Customer segmentation helps businesses understand different types of customers and create targeted marketing strategies.
