@@ -4,8 +4,6 @@
 This repository contains projects completed as part of the **Intern Alpha Data Analytics Internship**.  
 The projects demonstrate skills in data analysis, visualization, and machine learning.
 
----
-
 # Projects Included
 
 ## Task 1: Sales Data Analysis
@@ -36,8 +34,6 @@ Analyze sales data to identify:
 ![Top Products](Sales-Analysis%20Task%201/top_products.png)  
 ![Monthly Sales](Sales-Analysis%20Task%201/monthly_sales.png)
 
----
-
 ## Task 2: Customer Segmentation
 
 ### Objective
@@ -63,9 +59,6 @@ Segment customers into groups based on purchasing behavior using K-Means cluster
 
 ### Visualization
 ![Customer Segments](Customer-Segmentation%20Task%202/customer_segments.png)
-
-
----
 
 # Conclusion
 These projects demonstrate:
