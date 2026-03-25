@@ -1,73 +1,76 @@
-# Customer Segmentation using K-Means
+# Data Analytics Internship Projects (Intern Alpha)
 
-## Internship
-This project is completed as part of the **Intern Alpha Data Analytics Internship**.
-
----
-
-## Objective
-The goal of this project is to segment customers into different groups based on their purchasing behavior using clustering techniques.
+## Overview
+This repository contains projects completed as part of the **Intern Alpha Data Analytics Internship**.  
+The projects demonstrate skills in data analysis, visualization, and machine learning.
 
 ---
 
-## Tools & Technologies Used
-- Python 🐍
-- Pandas (Data Processing)
-- Matplotlib (Visualization)
-- Scikit-learn (K-Means Clustering)
+# Projects Included
+
+## Task 1: Sales Data Analysis
+
+### Objective
+Analyze sales data to identify:
+- Sales trends
+- Top-performing products
+- Monthly performance
+
+### Tools Used
+- Python 
+- Pandas
+- Matplotlib
+
+### Work Done
+- Data cleaning (removed null values & duplicates)
+- Total sales calculation
+- Top 10 products analysis
+- Monthly sales trend analysis
+
+### Key Insights
+- Product **1099** has the highest sales.
+- Month **1 (January)** has the highest sales.
+- Sales fluctuate across different months.
+
+### Visualizations
+![Top Products](Sales-Analysis%20Task%201/top_products.png)  
+![Monthly Sales](Sales-Analysis%20Task%201/monthly_sales.png)
 
 ---
 
-## Dataset
-- File: `Mall_Customers.csv`
-- The dataset includes:
-  - CustomerID
-  - Gender
-  - Age
-  - Annual Income (k$)
-  - Spending Score (1-100)
+## Task 2: Customer Segmentation
 
----
+### Objective
+Segment customers into groups based on purchasing behavior using K-Means clustering.
 
-## Steps Performed
+### Tools Used
+- Python 
+- Pandas
+- Matplotlib
+- Scikit-learn
 
-### 1. Data Loading
-- Loaded dataset using Pandas
+### Work Done
+- Selected features: Annual Income & Spending Score
+- Applied K-Means clustering (K=5)
+- Assigned cluster labels
+- Visualized customer segments
 
-### 2. Data Cleaning
-- Checked for missing values
-- Ensured data consistency
-
-### 3. Feature Selection
-- Selected:
-  - Annual Income
-  - Spending Score
-
-### 4. Clustering
-- Applied K-Means algorithm with 5 clusters
-- Assigned cluster labels to each customer
-
-### 5. Visualization
-- Created scatter plot to visualize customer segments
-
----
-
-## Key Insights
-- Customers are divided into 5 distinct segments.
-- High-income, high-spending customers form a premium group.
+### Key Insights
+- Customers are divided into **5 distinct groups**.
+- High-income & high-spending customers form a premium segment.
 - Some customers have high income but low spending.
-- Some customers have low income but high spending.
-- These segments help businesses target customers effectively.
+- Helps businesses target customers effectively.
 
----
-
-## Output Visualization
-
-### Customer Segmentation
-![Customer Segments](customer_segments.png)
+### Visualization
+![Customer Segments](Customer-Segmentation%20Task%202/customer_segments.png)
 
 
 ---
 
-## Conclusion
-Customer segmentation helps businesses understand different types of customers and create targeted marketing strategies.
+# Conclusion
+These projects demonstrate:
+- Data cleaning and preprocessing
+- Data visualization
+- Business insights extraction
+- Machine learning (clustering)
+
